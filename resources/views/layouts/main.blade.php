@@ -12,7 +12,9 @@
 </head>
 <body>
     @include('partials.header')
+    @include('partials.jumbotron')
     @yield('content')
+    @include('partials.slider')
     @include('partials.footer')
 
 </body>
