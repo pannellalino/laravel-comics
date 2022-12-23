@@ -178,6 +178,10 @@ header{
     height: 100%;
     background-color: transparent;
     border: none;
+    transition: all .4s;
+    &:hover{
+        transform: scale(1.05);
+    }
     img{
       width: 100%;
       aspect-ratio: 1/1;
